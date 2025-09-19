@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://commlink-app.onrender.com/api",
+  baseURL: "https://commlink-app-be.onrender.com/api",
 });
 
 // ✅ attach token automatically
